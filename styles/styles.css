@@ -1,11 +1,29 @@
-//Hyperlinks
-a:link, a:visited, a:hover, a: active {
+/*Header 1*/
+h1 {
+	color:blue;
+	text-align: center;
+}
+
+/*Header 2*/
+h2 {
+	color:gray;
+	text-align: center;
+}
+
+/*General text*/
+p {
+	color: black;
+	text-align: center;
+}
+
+/*Hyperlinks*/
+a:link, a:visited, a:hover {
 	color:red;
 	background-color:transparent;
 	text-decoration:none;
 }
 
-//Horizontal rule
+/*Horizontal rule*/
 hr {
 	display: block;
 	height: 1px;
@@ -15,7 +33,3 @@ hr {
 	padding: 0;
 }
 
-//General text
-p {
-	text-align: center;
-}
