@@ -11,27 +11,30 @@
   gtag('config', 'UA-121422277-1');
     </script>
 
-	<meta charset="UTF-8">
-	<meta name="description" content="Contact the John Charlton"> 
-	<meta name="keywords" content="Sheffield, Computer Science, Visual Computing">
-	<meta name="author" content="John Charlton">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Contact | John Charlton</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Homepage of the John Charlton">
+    <meta name="keywords" content="Sheffield, Computer Science, Visual Computing">
+    <meta name="author" content="John Charlton">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research | John Charlton</title>
     <link rel="stylesheet" href="styles/normalize.css">
-	<link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 
 
+
+
 <body>
+
     <div class="flex-horz full-page">
         <nav class="menu">
             <!-- Sidesite navitator -->
             <ul class="sidenav">
                 <li><a href="./index.html">About</a></li>
-                <li><a href="./research.html">Research</a></li>
+                <li><a class="active" href="./research.html">Research</a></li>
                 <li><a href="./publications.html">Publications</a></li>
                 <li><a href="./demonstrating.html">Demonstating</a></li>
-                <li><a class="active" href="./contact.html">Contact</a></li>
+                <li><a href="./contact.html">Contact</a></li>
             </ul>
         </nav>
 
@@ -43,24 +46,12 @@
             </header>
 
             <main>
-                <h2>Contact</h2>
-                <ul class="contact-list">
-                    <li>
-                        <a href="mailto:j.a.charlton@sheffield.ac.uk"> <p>j.a.charlton@sheffield.ac.uk </p><img src="imgs/email.png" alt="email" /> </a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/coolmule0"> <p>github/coolmule0 </p><img src="imgs/github.jpg" alt="github" /> </a>
-                    </li>
-                </ul>
+                <div class="flex-container">
+                    <h2>Research</h2>
+                    <h3>Batched linear programing in 2D on the GPU</h3>
+                    <p>An algorithm based of Seidel's randomised incremental linear program, optimised for GPUs in 2D. It is able to efficiently solve large numbers of different linear programs. See the <a href="https://github.com/coolmule0/LP">GitHub repository</a> for source code.</p>
+                </div>
 
-                <p>
-                    Department of Computer Science,<br />
-                    The University of Sheffield,<br />
-                    Regent Court,<br />
-                    211 Portobello,<br />
-                    Sheffield,<br />
-                    S1 4DP
-                </p>
             </main>
 
             <footer>
@@ -77,6 +68,9 @@
             </footer>
         </div>
     </div>
+
+
+
 
 </body>
 </html>
