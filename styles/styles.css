@@ -142,7 +142,14 @@ hr {
     vertical-align: middle;
 }
 
-
+/*Paper publication styling*/
+.paper > p {
+	margin: 0;
+}
+/*First p child of paper class*/
+.paper > p:first-child{
+	font-size:1.7em;
+}
 
 
 
