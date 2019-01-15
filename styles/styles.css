@@ -4,7 +4,7 @@
 .flex-vert{
     display:flex;
     flex-direction:column;
-    padding: 0 3%;
+    padding: 0;
     align-items: center;
     width:100%;
 }
@@ -22,10 +22,14 @@ html, body{
 
 .full-page{
     height:auto;
+	width: 100%;
     min-height:100%;
 }
 
 
+img.mugshot {
+	float:right;
+}
 
 
 
@@ -34,12 +38,16 @@ html, body{
 /*.menu bar*/
 .menu{
     background-color: #0000ff;
-    flex: 0 0 250px;
+    flex: 0 0 200px;
+	transition: flex 0.5s, width 0.5s;
+	overflow:hidden;
+	text-overflow: clip;
 }
 .menu ul{
     list-style-type:none;
     padding: 0px;
     margin: 0px;
+	position:relative;
 }
 
 .menu ul li {
@@ -67,8 +75,32 @@ html, body{
     background-color: #1344a0;
 }
 
+/*////////////////////*/
+/*.Hamburger menu - w3schools*/
+#container {
+  display: inline-block;
+  cursor: pointer;
+}
 
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #e6e6e6;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+/*How the icon changes on click*/
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
 
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
 
 
 
@@ -81,6 +113,8 @@ header {
 
 main {
     flex: 1 0 auto;
+	padding: 0 3%;
+	max-width: 1000px;
 }
 
 /*Header 1*/
@@ -159,7 +193,7 @@ footer {
     flex-shrink:0;
     text-align:center;
     width:100%;
-    padding:2%;
+    /*padding:2%;*/
 }
 footer ul li {
     display: inline;
@@ -178,6 +212,41 @@ footer p {
     text-align: center;
 }
 
+
+
+#hamburger{
+	visibility: hidden;
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	    background-color: #0000ff;
+
+}
+
+.minimized {
+	width: 0px;
+	flex: 0 0 0;
+}
+
+
+@media only screen and (max-width: 720px){
+	/*Make main body and nav now overlap */
+	#main-body{
+		position:absolute;
+		/*z-index: -10;*/
+	}
+	
+	.menu {
+		z-index: 10;
+	}
+	.nav-attachment{
+		z-index: 10;
+	}
+	#hamburger{
+		visibility: visible;
+		
+	}
+}
 
 
 

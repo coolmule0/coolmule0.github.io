@@ -19,6 +19,7 @@
     <title>Research | John Charlton</title>
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/styles.css">
+	<script type="text/javascript" src="nav.js"></script>
 </head>
 
 
@@ -27,7 +28,7 @@
 <body>
 
     <div class="flex-horz full-page">
-        <nav class="menu">
+        <nav class="menu" id="nav">
             <!-- Sidesite navitator -->
             <ul class="sidenav">
                 <li><a href="./index.html">About</a></li>
@@ -37,7 +38,13 @@
                 <li><a href="./contact.html">Contact</a></li>
             </ul>
         </nav>
-
+		<div class="nav-attachment">
+			<div id="hamburger" class="change">
+				<div class="bar1"></div>
+				<div class="bar2"></div>
+				<div class="bar3"></div>
+			</div>
+		</div>
         <div class="flex-vert" id="main-body">
             <header>
                 <h1>John Charlton</h1>
