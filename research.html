@@ -1,14 +1,14 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121422277-1"></script>
     <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-  gtag('config', 'UA-121422277-1');
+    gtag('config', 'UA-121422277-1');
     </script>
 
     <meta charset="UTF-8">
@@ -19,7 +19,7 @@
     <title>Research | John Charlton</title>
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/styles.css">
-	<script type="text/javascript" src="nav.js"></script>
+    <script type="text/javascript" src="nav.js"></script>
 </head>
 
 
@@ -27,7 +27,7 @@
 
 <body>
 
-    <div class="flex-horz full-page">
+    <div class="page-wrapper full-page">
         <nav class="menu" id="nav">
             <!-- Sidesite navitator -->
             <ul class="sidenav">
@@ -38,28 +38,32 @@
                 <li><a href="./contact.html">Contact</a></li>
             </ul>
         </nav>
-		<div class="nav-attachment">
-			<div id="hamburger" class="change">
-				<div class="bar1"></div>
-				<div class="bar2"></div>
-				<div class="bar3"></div>
-			</div>
-		</div>
-        <div class="flex-vert" id="main-body">
-            <header>
-                <h1>John Charlton</h1>
-                <h2>PhD Computer Science Research Student</h2>
-                <hr />
-            </header>
+        <div class="nav-attachment">
+            <div id="hamburger" class="change">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        </div>
+        <div class="page-vert" id="main-body">
+            <div id="content-wrap">
 
-            <main>
-                <div class="flex-container">
-                    <h2>Research</h2>
-                    <h3>Batched linear programing in 2D on the GPU</h3>
-                    <p>An algorithm based of Seidel's randomised incremental linear program, optimised for GPUs in 2D. It is able to efficiently solve large numbers of different linear programs. See the <a href="https://github.com/coolmule0/LP">GitHub repository</a> for source code.</p>
-                </div>
+                <header>
+                    <h1>John Charlton</h1>
+                    <h2>PhD Computer Science Research Student</h2>
+                    <hr />
+                </header>
 
-            </main>
+                <main>
+                    <div class="flex-container">
+                        <h2>Research</h2>
+                        <p>This page contains publically available code created to aid in understanding of research. For code related to published work, please <a href="mailto:j.a.charlton@sheffield.ac.uk">contact me</a> to gain access.</p>
+                        <h3>Batched linear programing in 2D on the GPU</h3>
+                        <p>An algorithm based of Seidel's randomised incremental linear program, optimised for GPUs in 2D. It is able to efficiently solve large numbers of different linear programs. See the <a href="https://github.com/coolmule0/LP">GitHub repository</a> for source code.</p>
+                    </div>
+
+                </main>
+            </div>
 
             <footer>
                 <hr />

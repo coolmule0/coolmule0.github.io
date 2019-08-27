@@ -1,138 +1,31 @@
 /*////////////////////*/
 /*Overall page styling*/
-/*Vertical flex box*/
-.flex-vert{
-    display:flex;
-    flex-direction:column;
-    padding: 0;
-    align-items: center;
-    width:100%;
-}
-
-/* Horizontal flex box*/
-.flex-horz{
-    display:flex;
-    flex-direction:row;
-}
-
-html, body{
-    margin:0;
-    height:100%;
-}
-
-.full-page{
-    height:auto;
-	width: 100%;
-    min-height:100%;
-}
-
-
-img.mugshot {
-	float:right;
-}
-
-
-
-
-/*////////////////////*/
-/*.menu bar*/
-.menu{
-    background-color: #0000ff;
-    flex: 0 0 200px;
-	transition: flex 0.5s, width 0.5s;
-	overflow:hidden;
-	text-overflow: clip;
-}
-.menu ul{
-    list-style-type:none;
-    padding: 0px;
-    margin: 0px;
-	position:relative;
-}
-
-.menu ul li {
-	border-bottom: 1px solid yellow;
-    margin: 2%;
-    position:relative;
-}
-
-.menu ul li .active {
-	background-color:  #4881ea;
-}
-
-/*Text in each element*/
-.menu ul li a {
-    padding:16px;
-    text-align:right;
-    color: #e6e6e6;
-    display:block;
-
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1.5em;
-    text-decoration:none;
-}
-.menu ul li a:hover{
-    background-color: #1344a0;
-}
-
-/*////////////////////*/
-/*.Hamburger menu - w3schools*/
-#container {
-  display: inline-block;
-  cursor: pointer;
-}
-
-.bar1, .bar2, .bar3 {
-  width: 35px;
-  height: 5px;
-  background-color: #e6e6e6;
-  margin: 6px 0;
-  transition: 0.4s;
-}
-/*How the icon changes on click*/
-.change .bar1 {
-  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-  transform: rotate(-45deg) translate(-9px, 6px);
-}
-
-.change .bar2 {opacity: 0;}
-
-.change .bar3 {
-  -webkit-transform: rotate(45deg) translate(-8px, -8px);
-  transform: rotate(45deg) translate(-8px, -8px);
-}
-
-
 
 /*////////////////////*/
 /*Main body text*/
 
-header {
-    width:100%;
+:root {
+    /* 3 primary colours of the site */
+    --color1: rgb(47, 77, 184);
+    --color2: rgb(184, 143, 47);
+    --color3: rgb(184, 74, 47);
+    --colorl: rgb(150, 150, 225);   /*Light color*/
+    --colord: rgb(15, 18, 31);      /*dark color*/
 }
 
-main {
-    flex: 1 0 auto;
-	padding: 0 3%;
-	max-width: 1000px;
-}
-
-/*Header 1*/
 h1 {
-	color: #0000ff;
-	text-align: center;
+    color: var(--color1);
+    text-align: center;
 }
 
-/*Header 2*/
 h2 {
-	color:gray;
-	text-align: center;
+    color:var(--color2);
+    text-align: center;
 }
 
-/*General text*/
 p {
-	color: black;
-	text-align: left;
+    color: var(--colord);
+    text-align: left;
     font-size:1.2em;
     font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
@@ -140,21 +33,60 @@ p {
 
 /*Hyperlinks*/
 a:link, a:visited, a:hover {
-	color:blue;
-	background-color:transparent;
-	text-decoration:none;
+    color: var(--color3);
+    text-decoration:none; /*remove colour changes when already visited */
 }
 
 /*Horizontal rule*/
 hr {
-	display: block;
-	height: 1px;
-	border: 0;
-	border-top: 1px solid #ccc;
-	margin: 1em 0;
-	padding: 0;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid var(--color3);
+    margin: 0;
+    padding: 0;
 }
 
+/*////////////////////*/
+/*top banner*/
+header {
+    width:100%; /*horizonal rule covers all  of the page width*/
+}
+
+/*////////////////////*/
+/*main content in each page*/
+main {
+    flex: 1 0 auto;
+    padding: 0 3%;
+}
+
+/*////////////////////*/
+/*Footer*/
+footer {
+    text-align:center;
+    width:100%;
+    bottom: 0;
+    position: absolute;
+    height: 152px;            /* Footer height */
+}
+footer ul li {
+    display: inline;
+}
+
+/*footer images*/
+footer img {
+    min-height: 64px;
+    max-height: 64px;
+    min-width: 64px;
+    max-width: 64px;
+}
+
+footer p {
+    margin:auto;
+    text-align: center;
+}
+
+/*////////////////////*/
 /*Contact page information*/
 .contact-list {
     list-style-type:none;
@@ -164,6 +96,7 @@ hr {
 .contact-list li {
 }
 .contact-list li a {
+    vertical-align: middle;
 }
 .contact-list li img{
     min-height: 64px;
@@ -178,77 +111,171 @@ hr {
 
 /*Paper publication styling*/
 .paper > p {
-	margin: 0;
+    margin: 0;
 }
 /*First p child of paper class*/
 .paper > p:first-child{
-	font-size:1.7em;
+    font-size:1.7em;
+}
+
+/*Vertical flex box*/
+.page-vert{
+    /*display:flex;
+    flex-direction:column;*/
+    padding: 0 2%;
+    /*align-items: center;*/
+    width:100%;
+    min-height: 100vh;
+    position: relative;
+    /*flex-grow: 1000;*/
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Horizontal flex box containing full page of content*/
+.page-wrapper{
+    display:flex;
+    flex-direction:row;
+}
+
+#content-wrap {
+    padding-bottom: 152px;    /* Footer height */
+}
+/*html, body{
+margin:0;
+height:100%;
+}*/
+
+/*.full-page{
+height:auto;
+width: 100%;
+min-height:100%;
+}*/
+
+
+img.mugshot {
+    float:right;
+    padding: 5px 2%
+}
+
+img.textImage {
+    float:left;
+    height: 200px;
+    padding: 5px 2%
 }
 
 
 
 /*////////////////////*/
-/*Footer*/
-footer {
-    flex-shrink:0;
-    text-align:center;
-    width:100%;
-    /*padding:2%;*/
+/*.menu bar*/
+/*.container{
+position: fixed;
+height: 100%;
+}*/
+
+.menu{
+    background-color: var(--color1);
+    background-image: linear-gradient(var(--color1), var(--colorl));
+    flex: 0 0 250px;
+    transition: flex 0.5s, width 0.5s;
+    overflow:hidden;
+    text-overflow: clip;
+    position: relative;
+
+    /*height: 100%;*/
+    /*width of menu is fixed between min and max values*//*
+    width: 20%;
+    min-width: 200px;
+    max-width: 400px;*/
 }
-footer ul li {
-    display: inline;
+.menu ul{
+    list-style-type:none;
+    padding: 0px;
+    margin: 0px;
+    /*position:relative;*/
 }
 
-/*footer images*/
-footer ul li img {
-    min-height: 64px;
-    max-height: 64px;
-    min-width: 64px;
-    max-width: 64px;
+.menu li {
+    border-bottom: 1px solid var(--color3);
+    /*position:relative;*/
 }
 
-footer p {
-    margin:auto;
-    text-align: center;
+.menu .active {
+    color: var(--color2);
 }
 
+/*Text in each element*/
+.menu a {
+    text-align:right;
+    color: var(--colord);
+    display:block;
+    padding: 16px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+    text-decoration:none;
+}
+.menu a:hover{
+    background-color: var(--colorl);
+}
 
+/*////////////////////*/
+/*.Hamburger menu - w3schools*/
+#container {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #e6e6e6;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+/*How the icon changes on click*/
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
 
 #hamburger{
-	visibility: hidden;
-	width: 40px;
-	height: 40px;
-	position: absolute;
-	    background-color: #0000ff;
+    visibility: hidden;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    background-color: #0000ff;
 
 }
 
 .minimized {
-	width: 0px;
-	flex: 0 0 0;
+    width: 0px;
+    flex: 0 0 0;
 }
 
 
 @media only screen and (max-width: 720px){
-	/*Make main body and nav now overlap */
-	#main-body{
-		position:absolute;
-		/*z-index: -10;*/
-	}
-	
-	.menu {
-		z-index: 10;
-	}
-	.nav-attachment{
-		z-index: 10;
-	}
-	#hamburger{
-		visibility: visible;
-		
-	}
+    /*Make main body and nav now overlap */
+    .page-vert{
+        position:absolute;
+        /*z-index: -10;*/
+    }
+
+    .menu {
+        z-index: 10;
+        position: fixed;
+    }
+    .nav-attachment{
+        z-index: 10;
+    }
+    #hamburger{
+        visibility: visible;
+
+    }
 }
-
-
-
-
-
