@@ -18,6 +18,7 @@ function setMobileProperties(){
 	else{
 	}
 }
+
 function screenResize(){
 	//make sure mobile screen settings are present
 	if(window.innerWidth < 720){
@@ -40,5 +41,5 @@ window.onload = function(){
 }
 
 window.onresize = function(){
-	
+
 }

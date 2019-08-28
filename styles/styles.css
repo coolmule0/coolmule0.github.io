@@ -119,10 +119,10 @@ footer p {
 }
 
 /*Vertical flex box*/
-.page-vert{
+#page-vert{
     /*display:flex;
     flex-direction:column;*/
-    padding: 0 2%;
+    /*padding: 0 2%;*/
     /*align-items: center;*/
     width:100%;
     min-height: 100vh;
@@ -139,7 +139,7 @@ footer p {
 }
 
 #content-wrap {
-    padding-bottom: 152px;    /* Footer height */
+    padding-bottom: 152px;    /* Footer height. Pad with size of footer to fit in footer */
 }
 /*html, body{
 margin:0;
@@ -176,17 +176,12 @@ height: 100%;
 .menu{
     background-color: var(--color1);
     background-image: linear-gradient(var(--color1), var(--colorl));
-    flex: 0 0 250px;
-    transition: flex 0.5s, width 0.5s;
+    /*flex: 0 0 250px;*/
+    transition: width 0.5s;
     overflow:hidden;
     text-overflow: clip;
     position: relative;
-
-    /*height: 100%;*/
-    /*width of menu is fixed between min and max values*//*
-    width: 20%;
-    min-width: 200px;
-    max-width: 400px;*/
+    width: 250px;
 }
 .menu ul{
     list-style-type:none;
@@ -213,6 +208,7 @@ height: 100%;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.5em;
     text-decoration:none;
+    transition: 0.5s
 }
 .menu a:hover{
     background-color: var(--colorl);
@@ -220,17 +216,19 @@ height: 100%;
 
 /*////////////////////*/
 /*.Hamburger menu - w3schools*/
-#container {
+/*#container {
     display: inline-block;
     cursor: pointer;
-}
+}*/
 
 .bar1, .bar2, .bar3 {
     width: 35px;
     height: 5px;
-    background-color: #e6e6e6;
+    background-color: var(--color1);
     margin: 6px 0;
     transition: 0.4s;
+    position: relative;
+    left: 2px;
 }
 /*How the icon changes on click*/
 .change .bar1 {
@@ -245,37 +243,47 @@ height: 100%;
     transform: rotate(45deg) translate(-8px, -8px);
 }
 
+.nav-attachment{
+
+}
+
 #hamburger{
+    position: absolute;
+    background-color: white;
     visibility: hidden;
     width: 40px;
     height: 40px;
     position: fixed;
-    background-color: #0000ff;
+    left:0px;
+    -webkit-transition: left 0.5s;
+    transition: 0.5s;
+
+    /*background-color: var(--color1);*/
+}
+
+#hamburger.change {
+    left: 250px;
 
 }
 
 .minimized {
     width: 0px;
-    flex: 0 0 0;
+    /*flex: 0 0 0;*/
 }
 
 
 @media only screen and (max-width: 720px){
-    /*Make main body and nav now overlap */
-    .page-vert{
-        position:absolute;
-        /*z-index: -10;*/
-    }
+
 
     .menu {
         z-index: 10;
         position: fixed;
+        height: 100%;
     }
-    .nav-attachment{
-        z-index: 10;
-    }
+
     #hamburger{
         visibility: visible;
-
+        z-index: 10;
     }
+
 }
