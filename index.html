@@ -1,77 +1,83 @@
-    <!DOCTYPE html>
-    <html>
-    <head>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121422277-1"></script>
-        <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121422277-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-        gtag('config', 'UA-121422277-1');
-        </script>
+    gtag('config', 'UA-121422277-1');
+    </script>
 
-        <meta charset="UTF-8">
-        <meta name="description" content="Homepage of the John Charlton">
-        <meta name="keywords" content="Sheffield, Computer Science, Visual Computing">
-        <meta name="author" content="John Charlton">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Home | John Charlton</title>
-        <link rel="stylesheet" href="styles/normalize.css">
-        <link rel="stylesheet" href="styles/styles.css">
-        <script type="text/javascript" src="nav.js"></script>
-    </head>
-
-
+    <meta charset="UTF-8">
+    <meta name="description" content="Homepage of the John Charlton">
+    <meta name="keywords" content="Sheffield, Computer Science, Visual Computing">
+    <meta name="author" content="John Charlton">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | John Charlton</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <script type="text/javascript" src="nav.js"></script>
+</head>
 
 
-    <body>
-        <div class="page-wrapper full-page" >
-            <nav class="menu" id="nav">
-                <div class="container">
-                    <!-- Sidesite navitator -->
-                    <ul class="sidenav">
-                        <li><a class="active" href="./index">About</a></li>
-                        <li><a href="./research">Research</a></li>
-                        <li><a href="./publications">Publications</a></li>
-                        <li><a href="./demonstrating">Demonstating</a></li>
-                        <li><a href="./contact">Contact</a></li>
-                    </ul>
-                </div>
-            </nav>
-            <div class="nav-attachment">
-                <div id="hamburger" class="change">
-                    <div class="bar1"></div>
-                    <div class="bar2"></div>
-                    <div class="bar3"></div>
-                </div>
+
+
+<body>
+    <div class="page-wrapper full-page" >
+        <nav class="menu" id="nav">
+            <div class="container">
+                <!-- Sidesite navitator -->
+                <ul class="sidenav">
+                    <li><a class="active" href="./index">About</a></li>
+                    <li><a href="./research">Research</a></li>
+                    <li><a href="./publications">Publications</a></li>
+                    <li><a href="./demonstrating">Demonstating</a></li>
+                    <li><a href="./contact">Contact</a></li>
+                </ul>
             </div>
-            <div id="page-vert">
-                <div id="content-wrap">
-                    <header>
-                        <h1>John Charlton</h1>
-                        <h2>PhD Computer Science Research Student</h2>
-                        <hr />
-                    </header>
+        </nav>
+        <div class="nav-attachment">
+            <div id="hamburger" class="change">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        </div>
+        <div id="page-vert">
+            <div id="content-wrap">
+                <header>
+                    <h1>John Charlton</h1>
+                    <h2>PhD Computer Science Research Student</h2>
+                    <hr />
+                </header>
 
-                    <main>
-                        <div  class="flex-container">
-                            <h2>About</h2>
-                            <img src="imgs/mugshot.jpg" class="mugshot">
-                            <p>I'm John Charlton, a second year research student at the <a href="https://www.sheffield.ac.uk">University of Sheffield</a>, in the <a href="https://www.sheffield.ac.uk/dcs">Department of Computer Science</a>, in the <a href="https://www.sheffield.ac.uk/dcs/research/groups/visual-computing/home">Visual Computing Group</a>.</p>
-                            <p>Supervisors are <a href="http://paulrichmond.shef.ac.uk/">Paul Richmond</a> and <a href="http://staffwww.dcs.shef.ac.uk/people/S.Maddock/index.shtml">Steve Maddock</a></p>
+                <main>
+                    <div  class="flex-container">
+                        <h2>About</h2>
+                        <img src="imgs/mugshot.jpg" class="mugshot">
+                        <p>I'm John Charlton, a second year research student at the <a href="https://www.sheffield.ac.uk">University of Sheffield</a>, in the <a href="https://www.sheffield.ac.uk/dcs">Department of Computer Science</a>, in the <a href="https://www.sheffield.ac.uk/dcs/research/groups/visual-computing/home">Visual Computing Group</a>.</p>
+                        <p>Supervisors are <a href="http://paulrichmond.shef.ac.uk/">Paul Richmond</a> and <a href="http://staffwww.dcs.shef.ac.uk/people/S.Maddock/index.shtml">Steve Maddock</a></p>
 
-                            <p>My focus is on fast and realistic simulations of dense pedestrian crowds. My research examines models and algorithms suitable for increasing accuracy and realism of crowds, while being ran in real-time. The advantage of real-time simulations is immediate visualisation and interactivity. User-input can affect the model and add imersion to enhance realism. </p>
+                        <p>My focus is on fast and realistic simulations of dense pedestrian crowds. My research examines models and algorithms suitable for increasing accuracy and realism of crowds, while being ran in real-time. The advantage of real-time simulations is immediate visualisation and interactivity. User-input can affect the model and add imersion to enhance realism. </p>
 
-                            <p>Graphical proccessing units (GPUs) are exelent hardware for use with pedestrian simulations. The effective compute throughput is theortically far higher in GPUs than CPUs. Since pedestrians follow similar rules and behaviours, there is a high degree of parallelism within models. This lends itself well to GPUs. The GPU is also used for visualisations. By having data computed on the GPU, results can be visualised with only minimal extra overhead.  </p>
+                        <p>Graphical proccessing units (GPUs) are exelent hardware for use with pedestrian simulations. The effective compute throughput is theortically far higher in GPUs than CPUs. Since pedestrians follow similar rules and behaviours, there is a high degree of parallelism within models. This lends itself well to GPUs. The GPU is also used for visualisations. By having data computed on the GPU, results can be visualised with only minimal extra overhead.  </p>
 
-                            <a href="imgs/presenting_large.jpg"><img src="imgs/presenting.jpg" class="textImage"></a>
+                        <a href="imgs/presenting_large.jpg"><img src="imgs/presenting.jpg" class="textImage"></a>
 
-                            <p>Being subject to real-time simulations, there must be a trade off between model complexity and number of simulated people. By increasing one, the other must decrease for simulation steps to remain constant. Use of GPUs allows for an increase in both model complexity and number of simulated people due to its high compute throughput.</p>
+                        <p>Being subject to real-time simulations, there must be a trade off between model complexity and number of simulated people. By increasing one, the other must decrease for simulation steps to remain constant. Use of GPUs allows for an increase in both model complexity and number of simulated people due to its high compute throughput.</p>
 
-                            <p>I have done some work on using the ORCA model on GPUs, originally created by <a href="http://gamma.cs.unc.edu/ORCA/">van den Berg et. al</a>. It allows for millions of people to be simulated and visualised in real-time. </p>
+                        <p>I have examined the use of the ORCA model on GPUs, originally created by <a href="http://gamma.cs.unc.edu/ORCA/">van den Berg et. al</a>. It allows for millions of people to be simulated and visualised in real-time. </p>
 
-                            <p>Current work is examining ways to increase realism and accuracy of dense crowds.</p>
+                        <p>Current work is examining ways to increase realism and accuracy of dense crowds.</p>
+
+                    </div>
+
+                    <div  class="flex-container">
+                        <h2>Extras</h2>
+                        <p> I also host a radio show: "The Roots Of...". Each episode I do a deep-dive on the influences and inspirations of a certain artist, exploring the genres that form the basis of their music through history and sound. Tune in to <a href="http://forgetoday.com/player/">Sheffield's Forge Radio</a> on Monday 7 - 8pm GMT (UTC), and catch up <a href="https://www.mixcloud.com/The_Roots_Of/">on Mixcloud</a>. Previous artists include Radiohead, Rush, and Led Zeppelin.
                         </div>
 
                     </main>
@@ -81,10 +87,13 @@
                     <hr />
                     <ul id="media-contact">
                         <li>
-                            <a href="mailto:j.a.charlton@sheffield.ac.uk"> <img src="imgs/email.png" alt="email" /> </a>
+                            <a href="mailto:j.a.charlton@sheffield.ac.uk"> <img src="imgs/mail.png" alt="email" /> </a>
                         </li>
                         <li>
-                            <a href="https://github.com/coolmule0"> <img src="imgs/github.jpg" alt="github" /> </a>
+                            <a href="https://github.com/coolmule0"> <img src="imgs/github.png" alt="github" /> </a>
+                        </li>
+                        <li>
+                            <a href="https://www.mixcloud.com/The_Roots_Of/"> <img src="imgs/mixcloud.png" alt="mixcloud" /> </a>
                         </li>
                     </ul>
                     <p id="footer"> &#169 John Charlton 2019</p>

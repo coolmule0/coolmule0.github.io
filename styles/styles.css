@@ -79,6 +79,7 @@ footer img {
     max-height: 64px;
     min-width: 64px;
     max-width: 64px;
+    border-radius: 50%;
 }
 
 footer p {
@@ -217,8 +218,8 @@ height: 100%;
 /*////////////////////*/
 /*.Hamburger menu - w3schools*/
 /*#container {
-    display: inline-block;
-    cursor: pointer;
+display: inline-block;
+cursor: pointer;
 }*/
 
 .bar1, .bar2, .bar3 {
