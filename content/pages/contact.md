@@ -1,8 +1,7 @@
 Title: Contact
-Date: 2021-08-18 10:20
 
 
-- [j.a.charlton@sheffield.ac.uk](mailto:j.a.charlton@sheffield.ac.uk)> ![Mail]({attach}/images/mail.png)
+- [j.a.charlton@sheffield.ac.uk](mailto:j.a.charlton@sheffield.ac.uk) ![Mail]({attach}/images/mail.png)
 - [github/coolmule0](https://github.com/coolmule0) ![github]({attach}/images/github.png)
 
 

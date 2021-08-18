@@ -1,5 +1,4 @@
 Title: Talks and Demonstrations
-Date: 2021-08-18 10:20
 
 # Talks
 

@@ -1,5 +1,4 @@
 Title: Publications
-Date: 2021-08-18 10:20
 
 # Journal Articles
 
