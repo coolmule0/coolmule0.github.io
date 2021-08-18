@@ -14,7 +14,7 @@ April 2019
 ## Fast Simulation of Crowd Collision Avoidance
 
 # Code
-This page contains publically available code created to aid in understanding of research. For code related to published work, please [contact me](mailto:j.a.charlton@sheffield.ac.uk)　to gain access.
+This page contains publically available code created to aid in understanding of research. For code related to published work, please [contact me](mailto:j.a.charlton@sheffield.ac.uk) to gain access.
 
 ## Batched linear programing in 2D on the GPU
 

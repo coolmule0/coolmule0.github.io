@@ -4,6 +4,7 @@
 AUTHOR = 'John Charlton'
 SITENAME = 'John Charlton'
 SITEURL = ''
+# SITEURL = 'https://coolmule0.github.io'
 
 PATH = 'content'
 
@@ -20,15 +21,39 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (('Pelican', 'https://getpelican.com/'),
-         ('Python.org', 'https://www.python.org/'),
-         ('Jinja2', 'https://palletsprojects.com/p/jinja/'),
-         ('You can modify those links in your config file', '#'),)
+         ('RSE Sheffield', 'https://rse.shef.ac.uk/'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('Email', 'mailto:j.a.charlton@sheffield.ac.uk'),
+          ('Github', 'https://github.com/coolmule0"'),)
 
 DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+STATIC_PATHS = [
+    'static'
+]
+
+ARTICLE_PATHS = [
+    'Articles',
+]
+
+PAGE_EXCLUDES = [
+    'static'
+]
+
+ARTICLE_EXCLUDES = [
+    'static'
+]
+
+
+
+DISPLAY_CATEGORIES_ON_MENU = False
+
+TEMPLATE_PAGES = {
+
+}
+
+AUTHOR_SAVE_AS = ''

@@ -1,8 +1,8 @@
 Title: Contact
 
 
-- [j.a.charlton@sheffield.ac.uk](mailto:j.a.charlton@sheffield.ac.uk) ![Mail]({attach}/images/mail.png)
-- [github/coolmule0](https://github.com/coolmule0) ![github]({attach}/images/github.png)
+- [j.a.charlton@sheffield.ac.uk](mailto:j.a.charlton@sheffield.ac.uk) ![Mail]({static}/static/images/mail.png)
+- [github/coolmule0](https://github.com/coolmule0) ![github]({static}/static/images/github.png)
 
 
 Department of Computer Science,
