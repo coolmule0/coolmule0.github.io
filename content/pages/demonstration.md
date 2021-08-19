@@ -1,13 +1,11 @@
 Title: Talks and Demonstrations
+Template: talkanddemo
 
-# Talks
 
-### Making the most out of Jupyter Notebooks
-Sheffield Lunchbytes  
-October 2020
+<!-- Talks section is handled by the html/template site, which automatically draws from "Talks" articles -->
 
 # Demonstrating
-Modules I have assisted in teaching
+Modules I have assisted in teaching at the University of Sheffield
 
 ## 2020-2021
 
