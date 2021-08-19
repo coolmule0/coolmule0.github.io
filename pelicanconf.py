@@ -34,7 +34,7 @@ DEFAULT_PAGINATION = False
 
 # Content paths containing static content
 STATIC_PATHS = [
-    'static'
+    'static',
 ]
 
 # Content paths containing articles
