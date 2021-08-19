@@ -1,6 +1,7 @@
 Title: About
 Date: 2021-08-18 10:20
 save_as: index.html
+url: index.html
 
 <img src='/static/images/mugshot.jpg' style='float: right; margin: 10px;' alt='headshot'>
 
