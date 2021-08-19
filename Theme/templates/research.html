@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block html_lang %}{{ page.lang }}{% endblock %}
+
+{% block title %}{{ SITENAME }} - {{ page.title|striptags }}{%endblock%}
+
+{% block head %}
+  {{ super() }}
+
+  {% import 'translations.html' as translations with context %}
+  {% if translations.entry_hreflang(page) %}
+    {{ translations.entry_hreflang(page) }}
+  {% endif %}
+{% endblock %}
+
+{% block content %}
+    <h1>Categories on {{ SITENAME }}</h1>
+
+    <h2>Journal Articles</h2>
+    <ul>
+    {% for category, articles in categories|sort %}
+        <li><a href="{{ SITEURL }}/{{ category.url }}">{{ category }}</a> ({{ articles|count }})</li>
+    {% endfor %}
+    </ul>    
+    <h2>Conference Proceedings Papers</h2>
+    <h2>Code</h2>
+    <ul>
+    {% for category, articles in categories|sort %}
+        <li><a href="{{ SITEURL }}/{{ category.url }}">{{ category }}</a> ({{ articles|count }})</li>
+    {% endfor %}
+    </ul>
+{% endblock %}

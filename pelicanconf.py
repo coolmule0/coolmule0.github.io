@@ -52,6 +52,8 @@ ARTICLE_EXCLUDES = [
     'static'
 ]
 
+# TEMPLATE_PAGES = {'src/books.html': 'dest/books.html',}
+
 
 # Show the various article categories on the Nav menu?
 DISPLAY_CATEGORIES_ON_MENU = False
