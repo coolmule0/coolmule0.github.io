@@ -18,12 +18,12 @@ Modules I have assisted in teaching
 - [COM1008 Web and Internet Technology](https://www.dcs.sheffield.ac.uk/intranet/teaching/public/modules/level1/com1008.html)
 - [COM3503/4503/6503 3D Computer Graphics](https://www.sheffield.ac.uk/meng-engineering/current/modules/com4503#tab00)
 - [COM6471 Foundations of Object Oriented Programming](https://www.dcs.sheffield.ac.uk/intranet/teaching/public/modules/msc/com6471.html)
-- [COM4521 Parallel Computing](http://paulrichmond.shef.ac.uk/teaching/COM4521/))
+- [COM4521 Parallel Computing](http://paulrichmond.shef.ac.uk/teaching/COM4521/)
 
 ## 2018-2019
 
 - [COM1008 Web and Internet Technology](https://www.dcs.sheffield.ac.uk/intranet/teaching/public/modules/level1/com1008.html)
-- [COM4521 Parallel Computing](http://paulrichmond.shef.ac.uk/teaching/COM4521/))
+- [COM4521 Parallel Computing](http://paulrichmond.shef.ac.uk/teaching/COM4521/)
 
 ## 2017-2018
 

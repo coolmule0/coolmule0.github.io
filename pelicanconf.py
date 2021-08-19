@@ -52,15 +52,15 @@ ARTICLE_EXCLUDES = [
     'static'
 ]
 
-# TEMPLATE_PAGES = {'src/books.html': 'dest/books.html',}
-
-
 # Show the various article categories on the Nav menu?
 DISPLAY_CATEGORIES_ON_MENU = False
 
-TEMPLATE_PAGES = {
-
-}
-
 # Don't bother generating an Author page - we've only got one author
 AUTHOR_SAVE_AS = ''
+
+# Make use of the custom provided theme (in the folder "Theme")
+THEME = "Theme"
+
+EXTRA_PATH_METADATA = {
+    'extra/favicon.ico': {'path': 'favicon.ico'},
+}
