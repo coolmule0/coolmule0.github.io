@@ -6,6 +6,8 @@ name = "pypi"
 [packages]
 pelican = "*"
 markdown = "*"
+invoke = "*"
+ghp-import = "*"
 
 [dev-packages]
 

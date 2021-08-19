@@ -3,8 +3,6 @@
 
 AUTHOR = 'John Charlton'
 SITENAME = 'John Charlton'
-SITEURL = ''
-# SITEURL = 'https://coolmule0.github.io'
 
 PATH = 'content'
 
