@@ -20,8 +20,8 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'https://getpelican.com/'),
-         ('RSE Sheffield', 'https://rse.shef.ac.uk/'),)
+LINKS = (('RSE Sheffield', 'https://rse.shef.ac.uk/'),
+         ('CV/Resume', '/static/cv.html'),)
 
 # Social widget
 SOCIAL = (('Email', 'mailto:j.a.charlton@sheffield.ac.uk'),
@@ -32,28 +32,33 @@ DEFAULT_PAGINATION = False
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
+# Content paths containing static content
 STATIC_PATHS = [
     'static'
 ]
 
+# Content paths containing articles
 ARTICLE_PATHS = [
     'Articles',
 ]
 
+# Avoid generating pages in these content folders
 PAGE_EXCLUDES = [
     'static'
 ]
 
+# Avoid generating articles in these content folders
 ARTICLE_EXCLUDES = [
     'static'
 ]
 
 
-
+# Show the various article categories on the Nav menu?
 DISPLAY_CATEGORIES_ON_MENU = False
 
 TEMPLATE_PAGES = {
 
 }
 
+# Don't bother generating an Author page - we've only got one author
 AUTHOR_SAVE_AS = ''

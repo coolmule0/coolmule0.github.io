@@ -2,8 +2,8 @@ Title: Talks and Demonstrations
 
 # Talks
 
-Making the most out of Jupyter Notebooks
-Sheffield Lunchbytes
+### Making the most out of Jupyter Notebooks
+Sheffield Lunchbytes  
 October 2020
 
 # Demonstrating
