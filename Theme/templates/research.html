@@ -16,22 +16,22 @@
 <section id="content" class="body">
     <h1 class="entry-title">{{ page.title }}</h1>
 
-    <h2>Publications</h2>
+    <h1>Publications</h2>
 
     {% for article in articles if article.category == "Publications"%}
-        <h3><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h3>
+        <h2><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h3>
         {{ article.summary }}
-        <p>{{ article.published }} - <em>{{ article.journal }}</em></p>
+        <p>{{ article.date.strftime('%Y-%b') }} - <em>{{ article.journal }}</em></p>
         <p><a href="{{ article.manuscript }}">Paper available here</a> or <a href="{{ article.doi }}">{{ article.doi }}</a></p>
         <hr>
     {% endfor %}
 
-    <h2>Code</h2>
+    <h1>Code</h2>
 
     This section contains publically available code created to aid in understanding of research. For code related to published work, please contact me to gain access.
 
     {% for article in articles if article.category == "Code" %}
-        <h3><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h3>
+        <h2><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h3>
 
     {% endfor %}
 

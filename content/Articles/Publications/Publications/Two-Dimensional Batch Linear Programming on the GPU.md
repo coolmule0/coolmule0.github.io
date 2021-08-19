@@ -1,7 +1,6 @@
 Title: Two-Dimensional Batch Linear Programming on the GPU
 Slug: Batch Linear Programming
 Date: 2019-04-01
-Published: 2019-04
 Summary: An efficient algorithm for solving multiple linear programs on the GPU.
 Submission: Published
 Journal: Journal of Parallel and Distributed Computing

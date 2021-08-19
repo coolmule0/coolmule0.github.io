@@ -24,4 +24,6 @@ Current work is examining ways to increase realism and accuracy of dense crowds.
 
 ## RateSetter
 
-As a research associate I am examining the Platform-Train Interface (PTI) within train stations.
+As a research associate I am examining the Platform-Train Interface (PTI) within train stations. This has been particularly interesting during COVID times as social distancing  greatly changes the boarding and alighting behaviour of people. 
+
+My work has involved creating a computer model of the PTI boarding-alighting process, validating it against CCTV from train stations, and then using the model to make predictions on how different parameters (e.g. platform layout, stock type) will affect this PTI process.

@@ -16,6 +16,6 @@ A Pelican Theme is both a way to style the website as well as rules for handling
 
 ## Publishing
 
-Run `make github`, which uses the base `pelicanconf.py` and adjusts production-ready values (such as generating feeds). This pushes the output folder to the `site` branch of the personal page.
+Run `make publish` and then `make github`, which uses the base `pelicanconf.py` and adjusts production-ready values (such as generating feeds). This pushes the output folder to the `site` branch of the personal page.
 
 To see the published site files, visit the e.g. `site` git branch.

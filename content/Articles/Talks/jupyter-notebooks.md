@@ -1,8 +1,7 @@
 Title: Making the Most of Jupyter Notebooks
 Slug: Jupyter Notebooks
-Date: 2021-08-18 14:44
+Date: 2020-10-07 
 Summary: Using Jupyter Notebooks with Extensions
-Published: 2020-10-07
 Journal: Sheffield Lunchbytes
 
 A brief talk on using Jupyter Notebooks with a variety of useful extentions. Given during the [Lunchbytes](https://rse.shef.ac.uk/events/lunchbytes-2020-10-07.html) talk in October 2020, hosted by the RSE team at Sheffield.
