@@ -6,7 +6,7 @@ url: index.html
 <img src='/static/images/mugshot.jpg' style='float: right; margin: 10px;' alt='headshot'>
 
 
-I'm John Charlton, a PhD student/Research Asssociate at the [University of Sheffield](https://www.sheffield.ac.uk), in the [Department of Computer Science](https://www.sheffield.ac.uk/dcs), in the [Visual Computing Group](https://www.sheffield.ac.uk/dcs/research/groups/visual-computing/home).
+I'm John Charlton, a PhD student/Research Associate at the [University of Sheffield](https://www.sheffield.ac.uk), in the [Department of Computer Science](https://www.sheffield.ac.uk/dcs), in the [Visual Computing Group](https://www.sheffield.ac.uk/dcs/research/groups/visual-computing/home).
 
 Supervisors are [Paul Richmond](http://paulrichmond.shef.ac.uk/) and [Steve Maddock](http://staffwww.dcs.shef.ac.uk/people/S.Maddock/index.shtml)
 
