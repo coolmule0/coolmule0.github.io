@@ -49,7 +49,7 @@ disableHugoGeneratorInject = false
 
 [params]
   dateform        = "2 Jan, 2006"
-  dateformShort   = "2 Jan"
+  dateformShort   = "Jan"
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04"
 
