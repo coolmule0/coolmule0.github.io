@@ -1,4 +1,4 @@
-baseURL = "https://example.com"
+baseURL = "https://coolmule0.github.io/"
 title   = "John Charlton"
 languageCode = "en-uk"
 theme = "hello-friend-ng"
@@ -28,7 +28,7 @@ enableRobotsTXT = true
 enableGitInfo   = false
 enableEmoji     = false
 enableMissingTranslationPlaceholders = false
-disableRSS     = false
+disableRSS     = true
 disableSitemap = false
 disable404     = false
 disableHugoGeneratorInject = false
