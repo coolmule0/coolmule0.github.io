@@ -1,7 +1,6 @@
 ---
 title: "Simulating Crowds and Autonomous Vehicles"
 date: 2020-07-06T11:37:43+01:00 #Date paper was published, or rought date of relevance
-draft: true
 summary: "What might it look like if vehicles used the same open spaces as pedestrians?"
 submission: "Published"
 journal: Transactions on Computational Science XXXVII #Submitted journal name

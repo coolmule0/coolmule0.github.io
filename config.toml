@@ -61,7 +61,7 @@ disableHugoGeneratorInject = false
 
   # Home subtitle of the index page.
   #
-  homeSubtitle = "The Home of John"
+  homeSubtitle = "PhD student and Researcher"
 
   # Set a background for the homepage
   # backgroundImage = "assets/images/background.jpg"
@@ -88,7 +88,7 @@ disableHugoGeneratorInject = false
   # generate the buttons here: https://sharingbuttons.io
   # and add them into your own `layouts/partials/sharing-buttons.html`
   #
-  enableSharingButtons = true
+  enableSharingButtons = false
 
   # Global language menu
   #
@@ -158,25 +158,25 @@ disableHugoGeneratorInject = false
   #   maxWidth = "50px"
 
   # Social icons
-  [[params.social]]
-    name = "twitter"
-    url  = "https://twitter.com/"
+#  [[params.social]]
+#    name = "twitter"
+#    url  = "https://twitter.com/"
 
   [[params.social]]
     name = "email"
-    url  = "mailto:nobody@example.com"
+    url  = "mailto:j.a.charlton@sheffield.ac.uk"
 
   [[params.social]]
     name = "github"
-    url  = "https://github.com/"
+    url  = "https://github.com/coolmule0/"
 
-  [[params.social]]
-    name = "linkedin"
-    url  = "https://www.linkedin.com/"
+ # [[params.social]]
+ #   name = "linkedin"
+ #   url  = "https://www.linkedin.com/"
 
-  [[params.social]]
-    name = "stackoverflow"
-    url  = "https://www.stackoverflow.com/"
+#  [[params.social]]
+#    name = "stackoverflow"
+#    url  = "https://www.stackoverflow.com/"
 
 [languages]
   [languages.en]
@@ -206,3 +206,7 @@ disableHugoGeneratorInject = false
     identifier = "talks"
     name       = "Talks"
     url        = "talks/"
+  [[menu.main]]
+    identifier = "demonstrating"
+    name       = "Demonstrating"
+    url        = "demonstrating/"

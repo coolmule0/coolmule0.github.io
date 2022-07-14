@@ -1,7 +1,6 @@
 ---
 title: "About"
 date: 2022-07-14T11:34:58+01:00
-draft: true
 ---
 
 ![headshot](mugshot.jpg)
