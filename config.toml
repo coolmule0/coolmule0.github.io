@@ -61,7 +61,7 @@ disableHugoGeneratorInject = false
 
   # Home subtitle of the index page.
   #
-  homeSubtitle = "PhD student and Researcher"
+  homeSubtitle = "PhD Student and Researcher"
 
   # Set a background for the homepage
   # backgroundImage = "assets/images/background.jpg"
@@ -158,10 +158,6 @@ disableHugoGeneratorInject = false
   #   maxWidth = "50px"
 
   # Social icons
-#  [[params.social]]
-#    name = "twitter"
-#    url  = "https://twitter.com/"
-
   [[params.social]]
     name = "email"
     url  = "mailto:j.a.charlton@sheffield.ac.uk"
@@ -170,24 +166,20 @@ disableHugoGeneratorInject = false
     name = "github"
     url  = "https://github.com/coolmule0/"
 
- # [[params.social]]
- #   name = "linkedin"
- #   url  = "https://www.linkedin.com/"
-
-#  [[params.social]]
-#    name = "stackoverflow"
-#    url  = "https://www.stackoverflow.com/"
+  [[params.social]]
+    name = "googlescholar"
+    url  = "https://scholar.google.com/citations?user=4GMr_qsAAAAJ&hl=en/"
 
 [languages]
   [languages.en]
-    subtitle  = "Hello Friend NG Theme"
+    subtitle  = "PhD Student  and Researcher"
     weight    = 1
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
-  [languages.fr]
-    subtitle  = "Hello Friend NG Theme"
-    weight    = 2
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+#  [languages.fr]
+#    subtitle  = "Hello Friend NG Theme"
+#    weight    = 2
+#    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
 [menu]
   [[menu.main]]
