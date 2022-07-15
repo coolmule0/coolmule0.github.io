@@ -28,7 +28,7 @@ enableRobotsTXT = true
 enableGitInfo   = false
 enableEmoji     = false
 enableMissingTranslationPlaceholders = false
-disableRSS     = true
+disableRSS     = false
 disableSitemap = false
 disable404     = false
 disableHugoGeneratorInject = false
@@ -111,7 +111,7 @@ disableHugoGeneratorInject = false
   #
   [params.footer]
     trademark = true
-    rss = true
+    rss = false
     copyright = true
     author = true
 
