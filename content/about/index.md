@@ -3,11 +3,17 @@ title: "About"
 date: 2022-07-14T11:34:58+01:00
 ---
 
-![headshot](mugshot.jpg)
+<!-- ![headshot](mugshot.jpg) -->
 
-I'm John Charlton, a part time PhD student, part time Research Associate at the [University of Sheffield](https://www.sheffield.ac.uk), in the [Department of Computer Science](https://www.sheffield.ac.uk/dcs), in the [Visual Computing Group](https://www.sheffield.ac.uk/dcs/research/groups/visual-computing/home).
+I'm John Charlton, a Postdoctoral Research Fellow at the [University of Sheffield](https://www.sheffield.ac.uk), in [Neopath](https://www.neopath.org.uk/), part of the [School of Clinical Dentitry](https://www.sheffield.ac.uk/dentalschool)
 
-My supervisors are [Paul Richmond](http://paulrichmond.shef.ac.uk/) and [Steve Maddock](http://staffwww.dcs.shef.ac.uk/people/S.Maddock/index.shtml), and I work closely with [David Fletcher](https://www.sheffield.ac.uk/mecheng/people/academic/david-fletcher) in [Mechanical Engineering](https://www.sheffield.ac.uk/mecheng)
+My work is in the field of Computational Pathology, which seeks to utilise modern hardware advancements, developments in algorithms, and connect between different disciplines, to forward healthcare. I am specifically examining detections of head and neck cancers, with the aim of improving the detection and prognosis.
+
+## PhD
+
+I completed my PhD, as well as carried out 3 years of Research Associate work in the [Department of Computer Science](https://www.sheffield.ac.uk/dcs), in the [Visual Computing Group](https://www.sheffield.ac.uk/dcs/research/groups/visual-computing/home). Where my focus was of GPU computing, and simulating pedestrian crowds.
+
+My PhD supervisors were [Paul Richmond](http://paulrichmond.shef.ac.uk/) and [Steve Maddock](http://staffwww.dcs.shef.ac.uk/people/S.Maddock/index.shtml), and I worked closely with [David Fletcher](https://www.sheffield.ac.uk/mecheng/people/academic/david-fletcher) in [Mechanical Engineering](https://www.sheffield.ac.uk/mecheng)
 
 My focus is on fast and realistic simulations of dense pedestrian crowds. My research examines models and algorithms suitable for increasing accuracy and realism of crowds, while running in real-time. This is applied to practical areas such as train stations and platforms to help understand crowd dynamics and effects.
 
@@ -19,7 +25,7 @@ Being subject to real-time simulations, there must be a trade off between model 
 
 I have examined the use of the ORCA model on GPUs, originally created by [van den Berg et. al](http://gamma.cs.unc.edu/ORCA/). It allows for millions of people to be simulated and visualised in real-time. It is an exellent baseline steering model in which to build more complex designs.
 
-My current work is examining ways to increase realism and accuracy of dense crowds. As well as working on my PhD thesis, I have been applying the models developed with the department of Mechanical Engineering to ask and answer questions around the platform-train interface, through RateSetter.
+<!-- My current work is examining ways to increase realism and accuracy of dense crowds. As well as working on my PhD thesis, I have been applying the models developed with the department of Mechanical Engineering to ask and answer questions around the platform-train interface, through RateSetter. -->
 
 ## RateSetter
 
