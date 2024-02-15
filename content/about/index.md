@@ -29,7 +29,7 @@ Being subject to real-time simulations, there must be a trade off between model 
 
 I have examined the use of the ORCA model on GPUs, originally created by [van den Berg et. al](http://gamma.cs.unc.edu/ORCA/). It allows for millions of people to be simulated and visualised in real-time. It is an exellent baseline steering model in which to build more complex designs.
 
-<!-- My current work is examining ways to increase realism and accuracy of dense crowds. As well as working on my PhD thesis, I have been applying the models developed with the department of Mechanical Engineering to ask and answer questions around the platform-train interface, through RateSetter. -->
+My Viva took place around October 2023, and the thesis, titled "Constraint-Based Simulation of Virtual Crowds" is [available here]({{< ref "/publications/phd-thesis" >}}). The thesis explores a novel way of simulating people that uses mathematical constraints. The advantage of using constraints, compared to other methods, is that constraints can be easily combined together. This means that different rules, described as constraints, can easily be computed together, allowing for a flexible behaviour model. The thesis explores how the pedestrian model behaves, as well as its computational performance utilising GPUs.
 
 ## RateSetter
 

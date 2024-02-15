@@ -1,5 +1,5 @@
 ---
-title: "Ph.D Thesis"
+title: "Ph.D Thesis: Constraint-Based Simulation of Virtual Crowds"
 date: 2023-11-08T12:44:04Z #Date paper was published, or rought date of relevance
 draft: false
 summary: My PhD thesis
