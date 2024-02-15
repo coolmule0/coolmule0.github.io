@@ -61,7 +61,7 @@ disableHugoGeneratorInject = false
 
   # Home subtitle of the index page.
   #
-  homeSubtitle = "PhD Student and Researcher"
+  homeSubtitle = "Postdoctoral Research Fellow, Researcher, and compute enthusiast"
 
   # Set a background for the homepage
   # backgroundImage = "assets/images/background.jpg"
@@ -112,13 +112,13 @@ disableHugoGeneratorInject = false
   [params.footer]
     trademark = true
     rss = false
-    copyright = true
+    copyright = false
     author = true
 
     topText = []
     bottomText = [
       #"Powered by <a href=\"http://gohugo.io\">Hugo</a>",
-      #"Theme based <a href=\"https://github.com/rhazdon\">Djordje Atlialp</a>"
+      #"Theme by <a href=\"https://github.com/rhazdon\">Djordje Atlialp</a>"
     ]
 
   # Colors for favicons
@@ -160,7 +160,7 @@ disableHugoGeneratorInject = false
   # Social icons
   [[params.social]]
     name = "email"
-    url  = "mailto:j.a.charlton@sheffield.ac.uk"
+    url  = "mailto:j.charlton@sheffield.ac.uk"
 
   [[params.social]]
     name = "github"
@@ -170,11 +170,11 @@ disableHugoGeneratorInject = false
     name = "googlescholar"
     url  = "https://scholar.google.com/citations?user=4GMr_qsAAAAJ&hl=en/"
 
-[languages]
-  [languages.en]
-    subtitle  = "PhD Student  and Researcher"
-    weight    = 1
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+#[languages]
+#  [languages.en]
+#    subtitle  = "PhD Student  and Researcher"
+#    weight    = 1
+#    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
 #  [languages.fr]
 #    subtitle  = "Hello Friend NG Theme"

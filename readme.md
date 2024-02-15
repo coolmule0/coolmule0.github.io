@@ -1,6 +1,13 @@
 # Personal Site
 
-Code for my personal site
+Code for my personal site. Built using [Hugo](https://gohugo.io)
+
+## Getting this repo
+This repo contains a submodule. When cloning, ensure submodules are also incorporated, either with `git clone --recurse-submodules #this-repo.git`, or for already clones repos, 
+```
+git submodule init 
+git submodule update
+```
 
 ### To Create a published paper
 
