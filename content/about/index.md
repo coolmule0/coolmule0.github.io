@@ -9,9 +9,23 @@ I'm John Charlton, a Postdoctoral Research Fellow at the [University of Sheffiel
 
 My work is in the field of Computational Pathology, which seeks to utilise modern hardware advancements, developments in algorithms, and connect between different disciplines, to forward healthcare. I am specifically examining detections of head and neck cancers, with the aim of improving the detection and prognosis.
 
+I have previously completed a PhD in computer science, with the thesis title ["Constraint-Based Simulation of Virtual Crowds"]({{< ref "/publications/phd-thesis" >}}), which started in 2016.
+
+I have been a Research Associate for a number of years. My earlier projects explored accurately simulating people at train station platforms, and modelling the process of boarding and alighting.
+
+More information about each section of my research life is detailed below
+
 ## Neopath
+I joined Neopath in November 2023, with the objective of applying computer science algorithms to medicinal images. The aim of this project is to gain insights into detection and information on cancers by utilising modern advances in the scientific field.
 
+![Two example digital pathology tissue slides](Whole_slide_image_quality_comparison.png)
+Photo from Mikael Häggström from Wikipedia. Two example tissue slides.
 
+Image recognition models have been advancing rapidly in capabilities. They are able to label and find features in images, in some cases to a high degree of accuracy.
+
+Tissue images, like the ones above, are on the order of Gigabytes in size, due to the small resolution and large scale recorded. A challenge at the moment for digital pathology is to consider the whole slide while not running out of available memory on the computaitonal device.
+
+My work involves creating and assessing the accuracy of potential image recognition models for a particular set of slides of salivary gland tumours.
 
 ## PhD
 
@@ -29,6 +43,9 @@ Being subject to real-time simulations, there must be a trade off between model 
 
 I have examined the use of the ORCA model on GPUs, originally created by [van den Berg et. al](http://gamma.cs.unc.edu/ORCA/). It allows for millions of people to be simulated and visualised in real-time. It is an exellent baseline steering model in which to build more complex designs.
 
+![Birds-eye view of a virtual simulation of many thousands of people. Inset image: eye-level view of the same simulation, showing nearby people and an autonomous vehicle.](2-way-arrows(1).png)
+A simulation of tens of thousands of people in real-time, together with autoomously diving pods (see inset of image). Each person has their own heterogenous behaviour and variables. The main image is a birds-eye view of the simulation, and draws an arrow in the direction each person is currently facing.
+
 My Viva took place around October 2023, and the thesis, titled "Constraint-Based Simulation of Virtual Crowds" is [available here]({{< ref "/publications/phd-thesis" >}}). The thesis explores a novel way of simulating people that uses mathematical constraints. The advantage of using constraints, compared to other methods, is that constraints can be easily combined together. This means that different rules, described as constraints, can easily be computed together, allowing for a flexible behaviour model. The thesis explores how the pedestrian model behaves, as well as its computational performance utilising GPUs.
 
 ## RateSetter
@@ -44,6 +61,8 @@ I worked on RateSetter over three years, and during that time I worked on variou
 It has been really interesting to bring together two departments, computer science and mechanical engineering, to work on a joint topic. The exertise in the two areas come together to create complex, accurate models which can validate and predict future behaviour.
 
 The best place to find more about how RateSetter works is from the initial paper ["Ratesetter: Roadmap for faster, safer, and better platform train interface design and operation using evolutionary optimisation"](https://dl.acm.org/doi/pdf/10.1145/3205455.3205605) and [my PhD thesis]({{< ref "/publications/phd-thesis" >}}), particularly chapter 4, on simulation model accuracy.
+
+During this period I was incorporated into the [Research Software Engineering team](https://rse.shef.ac.uk/) at Sheffield. I provided help to researchers with the goal of creating better, more reproducible code.
 
 The following sections detail these RateSetter projects in more detail.
 
