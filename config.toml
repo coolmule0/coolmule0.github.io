@@ -202,3 +202,9 @@ disableHugoGeneratorInject = false
     identifier = "demonstrating"
     name       = "Demonstrating"
     url        = "demonstrating/"
+
+# Render html in files
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
