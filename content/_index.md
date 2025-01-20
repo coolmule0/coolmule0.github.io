@@ -9,3 +9,4 @@ Currently I am working on fusion energy, and trying to help make fusion energy a
 
 I love computing and simulations. The idea of creating a virtual world, and being able to poke and bend any and every rule is very satisfying as well as a great way to learn more about real systems.
 
+<img src="/img/overview_image.jpg" style="display: block; margin-left: auto; margin-right: auto; width: 50%;">
