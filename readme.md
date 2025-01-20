@@ -9,6 +9,12 @@ git submodule init
 git submodule update
 ```
 
-### To Create a published paper
+## To Create a published paper
 
 `hugo new publications/$name.md` will produce a skeleton document. Fill out the front matter.
+
+## Developing the site
+
+Run `hugo server` for a live site to test changes on.
+
+`git push` changes to github. The workflow actions will run to update the actual site itself with the changes.
