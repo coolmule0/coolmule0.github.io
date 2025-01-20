@@ -198,10 +198,6 @@ disableHugoGeneratorInject = false
     identifier = "talks"
     name       = "Talks"
     url        = "talks/"
-  [[menu.main]]
-    identifier = "demonstrating"
-    name       = "Demonstrating"
-    url        = "demonstrating/"
 
 # Render html in files
 [markup]

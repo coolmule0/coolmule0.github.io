@@ -1,5 +1,5 @@
 ---
-title: "Pint_of_science"
+title: "Pint of Science"
 date: 2024-05-20T13:19:59Z
 ---
 
