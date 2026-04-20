@@ -1,6 +1,6 @@
 # Personal Site
 
-Code for my personal site. Built using [Hugo](https://gohugo.io)
+Code for my personal site. Built using [Hugo](https://gohugo.io). Be sure to install Hugo before setting up the site.
 
 ## Getting this repo
 This repo contains a submodule. When cloning, ensure submodules are also incorporated, either with `git clone --recurse-submodules #this-repo.git`, or for already clones repos, 

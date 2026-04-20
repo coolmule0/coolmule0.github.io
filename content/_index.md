@@ -1,12 +1,10 @@
 ---
 date: 2025-01-20T13:33:59Z
 ---
-<!-- Text for the main/index page -->
 
-Welcome to my site, a little place I store info about projects I have been a part of, and what kind of work I like doing.
 
-Currently I am working on fusion energy, and trying to help make fusion energy a reality.
+I also tutor privately. Looking for a boost for exams? Studying for university? Wanting personal guidance in your learning journey?
 
-I love computing and simulations. The idea of creating a virtual world, and being able to poke and bend any and every rule is very satisfying as well as a great way to learn more about real systems.
+[I'm one of the highest ranked tutors on TutorHunt](https://www.tutorhunt.com/users/8743648886680/)
 
-<img src="/img/overview_image.jpg" style="display: block; margin-left: auto; margin-right: auto; width: 50%;">
+Contact me here for 25% discount compared to my tutorhunt prices.

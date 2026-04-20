@@ -11,13 +11,26 @@
 
             <h1>{{ .Site.Title }}</h1>
 
-            {{ partial "subtitle.html" . }}
+            <!-- {{ partial "subtitle.html" . }} -->
 
             {{- with .Site.Params.social }}
                 <div>
                     {{ partial "social-icons.html" . }}
                 </div>
             {{- end }}
+        </div>
+        <p> Hi, ciao, oi, こんにちは.<br>
+        I'm John. I'm a scientist, coder, and doctor. And these are some of the things I work on. </p>
+        <!-- Projects grid view -->
+        <div class="projects-grid">
+            {{ range where .Site.RegularPages "Section" "projects" }}
+                <div class="project-card">
+                    <a href="{{ .Params.link }}" >
+                        <img src="{{ .Params.image }}" alt="{{ .Title }}">
+                    </a>
+                    <p>{{ .Summary }}</p>
+                </div>
+            {{ end }}
         </div>
         <div>
             {{ .Content }}
