@@ -2,10 +2,23 @@
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	gap: 2rem;
-	text-align: justify;
-  /* text-justify: inter-word; */
 }
 
 .project-card img {
 	width: 100%;
+}
+
+.intro {
+	text-align: center;
+	justify-content: center;
+}
+
+.intro p {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.title {
+	text-align: center;
 }

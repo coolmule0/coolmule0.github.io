@@ -110,16 +110,16 @@ disableHugoGeneratorInject = false
   # If you want, you can easily override the default footer with your own content. 
   #
   [params.footer]
-    trademark = true
+    trademark = false
     rss = false
     copyright = false
     author = true
 
-    topText = []
-    bottomText = [
-      #"Powered by <a href=\"http://gohugo.io\">Hugo</a>",
-      #"Theme by <a href=\"https://github.com/rhazdon\">Djordje Atlialp</a>"
-    ]
+    #topText = []
+    #bottomText = [
+    #  "Powered by <a href=\"http://gohugo.io\">Hugo</a>",
+    #  "Theme by <a href=\"https://github.com/rhazdon\">Djordje Atlialp</a>"
+    #]
 
   # Colors for favicons
   #
@@ -158,17 +158,17 @@ disableHugoGeneratorInject = false
   #   maxWidth = "50px"
 
   # Social icons
-  [[params.social]]
-    name = "email"
-    url  = "mailto:j.charlton@sheffield.ac.uk"
-
-  [[params.social]]
-    name = "github"
-    url  = "https://github.com/coolmule0/"
-
-  [[params.social]]
-    name = "googlescholar"
-    url  = "https://scholar.google.com/citations?user=4GMr_qsAAAAJ&hl=en/"
+  #[[params.social]]
+  #  name = "email"
+  #  url  = "mailto:j.charlton@sheffield.ac.uk"
+  #
+  #[[params.social]]
+  #  name = "github"
+  #  url  = "https://github.com/coolmule0/"
+  #
+  #[[params.social]]
+  #  name = "googlescholar"
+  #  url  = "https://scholar.google.com/citations?user=4GMr_qsAAAAJ&hl=en/"
 
 #[languages]
 #  [languages.en]

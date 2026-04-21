@@ -3,8 +3,8 @@
 {{ end }}
 
 {{ define "main" }}
-    <main aria-role="main">
-        <div>
+    <main aria-role="main" class="posts">
+        <div class="title">
             {{ if .Site.Params.Portrait.Path }}
                <img src="{{ .Site.Params.Portrait.Path }}" class="circle" alt="{{ .Site.Params.Portrait.Alt }}" style="max-width:{{ .Site.Params.Portrait.MaxWidth }}" />
             {{ end }}
@@ -13,14 +13,11 @@
 
             <!-- {{ partial "subtitle.html" . }} -->
 
-            {{- with .Site.Params.social }}
-                <div>
-                    {{ partial "social-icons.html" . }}
-                </div>
-            {{- end }}
         </div>
-        <p> Hi, ciao, oi, こんにちは.<br>
-        I'm John. I'm a scientist, coder, and doctor. And these are some of the things I work on. </p>
+        <div class="intro">
+            <p> Hi, ciao, oi, こんにちは.<br>
+            I'm John. I'm a scientist, coder, and doctor. And these are some of the things I work on. </p>
+        </div>
         <!-- Projects grid view -->
         <div class="projects-grid">
             {{ range where .Site.RegularPages "Section" "projects" }}
@@ -32,8 +29,19 @@
                 </div>
             {{ end }}
         </div>
+        
+        <hr>
+        {{ with site.GetPage "home/tutoring" }}
+            {{ .Content }}
+        {{ end }}
         <div>
             {{ .Content }}
         </div>
+
+        {{- with .Site.Params.social }}
+            <div>
+                {{ partial "social-icons.html" . }}
+            </div>
+        {{- end }}
     </main>
 {{ end }}
