@@ -22,3 +22,123 @@
 .title {
 	text-align: center;
 }
+
+
+
+/* Tutoring */
+.tutor-card {
+  /* background: #fff; */
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+  font-family: sans-serif;
+}
+
+.tutor-header {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.name-row {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.badge {
+  background: #a3e635;
+  padding: 2px 8px;
+  font-size: 12px;
+  border-radius: 6px;
+}
+
+.online {
+  display: inline-block;
+  margin-top: 6px;
+  background: #dbeafe;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 12px;
+}
+
+.stats {
+  margin-left: auto;
+  font-size: 13px;
+  /* color: #555; */
+  line-height: 1.6;
+}
+
+.rates {
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+th, td {
+  padding: 8px;
+  border-bottom: 1px solid #eee;
+  text-align: center;
+}
+
+.subject {
+  text-align: left;
+  font-weight: 600;
+}
+
+.stars {
+  --star-size: 1.4rem;
+  --star-color: #ddd;
+  --star-fill: #f5b301;
+
+  font-size: var(--star-size);
+  font-family: Arial, sans-serif;
+  line-height: 1;
+  display: inline-block;
+  position: relative;
+}
+
+.stars::before {
+  content: "★★★★★";
+  color: var(--star-color);
+}
+
+.stars::after {
+  content: "★★★★★";
+  color: var(--star-fill);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: calc(var(--rating) / 5 * 100%);
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.contact-btn {
+  display: inline-block;
+  background: #2563eb;
+  color: #fff;
+  padding: 10px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.2s ease;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.contact-btn:hover {
+  background: #1d4ed8;
+  transform: translateY(-1px);
+}

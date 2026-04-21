@@ -1,0 +1,66 @@
+<div class="tutor-card">
+
+  <!-- Header -->
+  <div class="tutor-header">
+    <img class="avatar" src="{{ .avatar }}" alt="{{ .name }}">
+
+    <div class="tutor-info">
+      <div class="name-row">
+        <h3>{{ .name }}</h3>
+        {{ if .verified }}
+          <span class="badge">Enhanced DBS Check</span>
+        {{ end }}
+      </div>
+
+      <div class="meta">
+        <span>{{ .role }}</span> · <span>{{ .location }}</span>
+      </div>
+
+      {{ if .online }}
+        <span class="online">I TUTOR ONLINE</span>
+      {{ end }}
+    </div>
+
+    <div class="stats">
+      <div>Feedback Score: 
+        <div class="stars" style="--rating: {{ .review }};"></div> from {{ .review_responses }} people
+      </div>
+      <div>Response Rate: {{ .response_rate }}%</div>
+      <div>Expected Response: {{ .expected_response }}</div>
+    </div>
+  </div>
+
+  <!-- Rates -->
+  <div class="rates">
+    <h4>{{ .rates.note }}</h4>
+
+    <table>
+      <thead>
+        <tr>
+          <th></th>
+          <!-- <th>KS3</th> -->
+          <th>GCSE</th>
+          <th>A-Level</th>
+          <th>Degree</th>
+          <th>Adult</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        {{ range .subjects }}
+        <tr>
+          <td class="subject">{{ .name }}</td>
+          <!-- <td>{{ .ks3 }}</td> -->
+          <td>{{ .gcse }}</td>
+          <td>{{ .alevel }}</td>
+          <td>{{ .degree }}</td>
+          <td>{{ .adult }}</td>
+        </tr>
+        {{ end }}
+      </tbody>
+    </table>
+  </div>
+
+<a href="/contact" class="contact-btn">Contact Me</a>
+
+</div>

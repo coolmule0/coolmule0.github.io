@@ -1,0 +1,36 @@
+name: John
+role: Tutor
+location: Sheffield, South Yorkshire
+verified: true
+online: true
+review: 5.0
+review_responses: 5
+response_rate: 95
+expected_response: "< 60 minutes"
+
+rates:
+  note: "£30.00 to £45.00 per hour"
+
+subjects:
+  - name: Computing
+    ks3: "-"
+    gcse: £30
+    alevel: £35
+    degree: £45
+    adult: £35
+
+  - name: Maths
+    ks3: null
+    gcse: £30
+    alevel: £35
+    degree: "-"
+    adult: £35
+
+  - name: Physics
+    ks3: "-"
+    gcse: £30
+    alevel: £35
+    degree: £45
+    adult: £35
+
+avatar: "/img/mugshot.jpg"
