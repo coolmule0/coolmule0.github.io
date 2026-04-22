@@ -33,7 +33,7 @@
         <hr> <!-- Tutoring section-->
         {{ partial "tutor-card.html" site.Data.tutoring }}
 
-        {{ with site.GetPage "home/tutoring" }}
+        {{ with site.GetPage "tutoring" }}
             {{ .Content }}
         {{ end }}
         <div>

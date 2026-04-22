@@ -4,4 +4,4 @@ image: "/img/maumau.png"
 link: "https://codeberg.org/coolmule0/Centrifuge"
 ---
 
-Create card games quickly and easily without having to worry about coding logic and boilerplate
+**Gamedev**: Create card games quickly and easily without having to worry about coding logic and boilerplate
