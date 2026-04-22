@@ -1,5 +1,5 @@
 baseURL = "https://coolmule0.github.io/"
-title   = "John Charlton"
+title   = "Dr John Charlton"
 languageCode = "en-uk"
 theme = "hello-friend-ng"
 
@@ -130,7 +130,7 @@ disableHugoGeneratorInject = false
 
   [params.logo]
     logoMark     = ">"
-    logoText     = " cd /home/john/"
+    logoText     = " cd /home/coolmule0/"
     logoHomeLink = "/"
     # Set true to remove the logo cursor entirely.
     # logoCursorDisabled = false
@@ -187,17 +187,13 @@ disableHugoGeneratorInject = false
     name       = "About"
     url        = "about/"
   [[menu.main]]
-    identifier = "publications"
-    name       = "Publications"
-    url        = "publications/"
+    identifier = "scientific"
+    name       = "Science Things"
+    url        = "scientific/"
   [[menu.main]]
     identifier = "contact"
     name       = "Contact"
     url        = "contact/"
-  [[menu.main]]
-    identifier = "talks"
-    name       = "Talks"
-    url        = "talks/"
 
 # Render html in files
 [markup]

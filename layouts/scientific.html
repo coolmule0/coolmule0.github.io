@@ -1,0 +1,77 @@
+{{ define "main" }}
+    {{ $pubs := .Site.GetPage "section" "publications" }}
+
+    {{ $paginator := $pubs.Paginate $pubs.Data.Pages }}
+
+    <div class="content">
+        <main class="posts">
+            <h1>{{ $pubs.Title }}</h1>
+
+            {{ if $pubs.Content }}
+                <div class="content">{{ $pubs.Content }}</div>
+            {{ end }}
+
+            {{ range $paginator.Pages.GroupByDate "2006" }}
+                <div class="posts-group">
+                    <div class="post-year">{{ .Key }}</div>
+
+                    <ul class="posts-list">
+                        {{ range .Pages }}
+                            <li class="post-item">
+                                <a href="{{.Permalink}}" class="post-item-inner">
+                                    <span class="post-title">{{.Title}}</span>
+                                    <span class="post-day">
+                                        {{ if .Site.Params.dateformShort }}
+                                            {{ time.Format .Site.Params.dateformShort .Date }}
+                                        {{ else }}
+                                            {{ time.Format "Jan 2" .Date }}
+                                        {{ end }}
+                                    </span>
+                                </a>
+                            </li>
+                        {{ end }}
+                    </ul>
+                </div>
+            {{ end }}
+
+
+        {{ $talks := .Site.GetPage "section" "talks" }}
+        {{ if $talks }}
+            {{ $paginatorTalks := $talks.Paginate $talks.Data.Pages }}
+            <hr>
+             <h1>{{ $talks.Title }}</h1>
+            <!-- {{ range $talks.Pages }}
+                <h2>{{ .Title }}</h2>
+                {{ .Summary }}
+            {{ end }}  -->
+
+            {{ if $talks.Content }}
+                <div class="content">{{ $talks.Content }}</div>
+            {{ end }}
+
+            {{ range $paginatorTalks.Pages.GroupByDate "2006" }}
+                <div class="posts-group">
+                    <div class="post-year">{{ .Key }}</div>
+
+                    <ul class="posts-list">
+                        {{ range .Pages }}
+                            <li class="post-item">
+                                <a href="{{.Permalink}}" class="post-item-inner">
+                                    <span class="post-title">{{.Title}}</span>
+                                    <span class="post-day">
+                                        {{ if .Site.Params.dateformShort }}
+                                            {{ time.Format .Site.Params.dateformShort .Date }}
+                                        {{ else }}
+                                            {{ time.Format "Jan 2" .Date }}
+                                        {{ end }}
+                                    </span>
+                                </a>
+                            </li>
+                        {{ end }}
+                    </ul>
+                </div>
+            {{ end }}
+        {{ end }}
+        </main>
+    </div>
+{{ end }}
