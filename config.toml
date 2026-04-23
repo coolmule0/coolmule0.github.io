@@ -28,7 +28,7 @@ enableRobotsTXT = true
 enableGitInfo   = false
 enableEmoji     = false
 enableMissingTranslationPlaceholders = false
-disableRSS     = false
+disableRSS     = true
 disableSitemap = false
 disable404     = false
 disableHugoGeneratorInject = false
@@ -61,7 +61,7 @@ disableHugoGeneratorInject = false
 
   # Home subtitle of the index page.
   #
-  homeSubtitle = "Postdoctoral Research Fellow, Researcher, and compute enthusiast"
+  homeSubtitle = "Scientist, coder, and tutor"
 
   # Set a background for the homepage
   # backgroundImage = "assets/images/background.jpg"
